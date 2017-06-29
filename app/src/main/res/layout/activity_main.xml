@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="button1호"
+       />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="뷰만들기"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="로그인- 쉐어드 프리퍼런시즈(쓰지마세요)"
+        />
+
+
+    <Button
+        android:id="@+id/btn_simple_list"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="간단한 리스트"
+        />
+    <Button
+        android:id="@+id/btn_todo_list"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Todo 리스트"
+        />
+
+</LinearLayout>
